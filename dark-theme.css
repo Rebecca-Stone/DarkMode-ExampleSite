@@ -1,0 +1,225 @@
+/* don't forget to implement a reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   commented out border for editing 
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  /* border: 0; */
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+html {
+  font-size: 62.5%;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* border needs to be commented out after editing */
+* {
+  box-sizing: border-box;
+  /* border: 1px solid grey; */
+  max-width: 100%;
+}
+
+section {
+  padding: 5% 0;
+  width: 95%;
+  margin: 0 auto;
+}
+/* for background images */
+/* body{
+    background-image:url();
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* styles for the background color to change */
+
+#wrapper {
+  background-color: white;
+  color: black;
+}
+/* styles for the top div and mode buttons */
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top h1 {
+  width: 100%;
+  text-align: center;
+  padding: 2%;
+  font-size: 3rem;
+  background-color: rgb(122, 21, 216);
+  color: aliceblue;
+  border-bottom: 2px solid black;
+}
+.top .modes {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  width: 100%;
+}
+.modeDark,
+.modeLight {
+  margin-top: 1%;
+  padding: 1%;
+  border-radius: 10px;
+}
+/*  styles for the main content */
+#main {
+  padding-top: 0%;
+  padding-bottom: 1%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.left,
+.right {
+  padding: 2%;
+  width: 45%;
+}
+h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+/* styles for the footer content */
+footer {
+  padding: 2%;
+  border-top: 2px solid black;
+  background-color: rgb(122, 21, 216);
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+nav a {
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+/* you need to implement styles for your dark and your light theme */
+/* which will be the default? up to you */
